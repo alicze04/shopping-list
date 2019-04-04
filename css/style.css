@@ -1,0 +1,27 @@
+
+body {
+background-image: url("../img/postit.jpg"); 
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+} 
+.done {
+color:red;
+text-decoration: line-through;
+}
+
+.itemColor {
+color:#007bff;
+}
+#itemList {
+font-family: 'Gloria Hallelujah', cursive;
+font-size: 30px;
+list-style: none;
+}
+#shopping-list {
+position: relative;
+}
+#shopping-list-items {
+position: absolute;
+}
